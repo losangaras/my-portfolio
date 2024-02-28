@@ -1,6 +1,50 @@
 .img-fluid{
+
+
    
             background-size: cover; 
             background-position: center; 
             height: 100%; 
 }
+.yazi{
+    margin: 70px;
+}
+.image-container {
+    position: relative;
+    width: 250px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+    color: #f1f1f1; /* Yazı rengi */
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+  .bungle{
+    display: flex;
+    justify-content: center;
+   
+   
+    opacity: 0.8; /* Üzerine gelindiğinde opaklık */
+    transform: scale(1.05); /* Biraz büyüt */
+    transition: all 0.3s ease-in-out;
+  }
+  .ilet{
+    margin: 100px;
+  }
